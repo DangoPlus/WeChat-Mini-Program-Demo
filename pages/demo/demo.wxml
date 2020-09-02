@@ -1,0 +1,15 @@
+<!--demo.wxml-->
+<view class="container">
+	<view class="item">
+		<text>1. Using official account components, easy to use, but has several limits. only show in specified scenario.</text>
+		<official-account class="account"></official-account>
+	</view>
+	<view class="item">
+		<text>2. Using Qrcode in new webview page, need to save image to gallery, and manually read the image. It is currently not supported on Mini Programs owned by personal entities (individual).</text>
+		<button bindtap="bindJumpTap" type="default">Jump to webview</button>
+	</view>
+	<view class="item">
+		<text>3. Jump to Customer Service, and Customer service staff will send a qrcode image to you.</text>
+		<button type="default" open-type="contact" bindcontact="handleContact">Jump to customer service</button>
+	</view>
+</view>

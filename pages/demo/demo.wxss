@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.item {
+  margin: 10rpx;
+}
+text {
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

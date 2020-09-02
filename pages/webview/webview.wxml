@@ -1,0 +1,2 @@
+<!--pages/webview.wxml-->
+<web-view src='https://lunatek.site/webview/'></web-view>
